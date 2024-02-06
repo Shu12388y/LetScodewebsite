@@ -97,7 +97,7 @@ export function PricingPageOne() {
         <div className="mt-8 w-full space-y-4 md:mt-12">
           <div className="grid space-y-8 lg:grid-cols-3 lg:space-x-8 lg:space-y-0">
             {plans.map((plan) => (
-              <div key={plan.name} className=" rounded-2xl border border-gray-200 bg-white shadow">
+              <div key={plan.name} className=" rounded-2xl border  border-gray-200 bg-white shadow">
                 <div className="flex w-full flex-col justify-start space-y-4 px-8 pt-10">
                   <div className="flex w-full flex-col items-start justify-start space-y-1">
                     <p className="w-full text-4xl font-semibold  text-gray-900">
