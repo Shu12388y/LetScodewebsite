@@ -1,5 +1,6 @@
 import React from "react";
 import { AnimatedTooltipPreview } from "@/components/component/Developers";
+import { CardTwo } from "@/components/component/Card";
 
 function page() {
   return (
@@ -44,8 +45,8 @@ function page() {
           </p>
         </div>
       </div>
-      <div className="flex item-center justify-center px-10">
-        <div className="p-10">
+      <div className="flex item-center justify-center gap-7 mb-20">
+        {/* <div className="p-10">
           <img
             className=""
             src="https://img.freepik.com/free-vector/positive-tiny-people-sitting-walking-near-huge-target-with-arrow-isolated-flat-vector-illustration-cartoon-business-team-achieving-goal-aim-marketing-strategy-achievement-concept_74855-10139.jpg?w=826&t=st=1707142657~exp=1707143257~hmac=cdebf65223a94131146aa14ca0ba33ca0eefc36dd2c967d6d53f37e971ea1aa1"
@@ -95,7 +96,35 @@ function page() {
           tech communities like AI/ML, Cloud, full-stack, etc., where we guide
           our community members to excel in their careers by providing proper
           guidance and resources!.
-        </div>
+        </div> */}
+        <CardTwo
+          img="https://img.freepik.com/free-vector/positive-tiny-people-sitting-walking-near-huge-target-with-arrow-isolated-flat-vector-illustration-cartoon-business-team-achieving-goal-aim-marketing-strategy-achievement-concept_74855-10139.jpg?w=826&t=st=1707142657~exp=1707143257~hmac=cdebf65223a94131146aa14ca0ba33ca0eefc36dd2c967d6d53f37e971ea1aa1"
+          header="Mission"
+          body="Our inclusive and collaborative platform fosters a community where
+          everyone can freely exchange insights seek guidance and grow together"
+        />
+        <CardTwo
+          img="https://img.freepik.com/free-vector/vision-statement-concept-illustration_114360-7576.jpg?w=740&t=st=1707143102~exp=1707143702~hmac=d8f1fa23840a5a6b3267c78c0c1867fe39d83f8c2df83206fe16dfeac5c9d8d4"
+          header="Vision"
+          body="   We envision Let's Code as a guiding light, illuminating the path for
+          aspiring developers and tech enthusiasts, igniting their passion for
+          coding, and nurturing their talents to unlock their true potential."
+        />
+        <CardTwo
+          img="https://img.freepik.com/free-vector/target-achievement-teamwork-business_107791-46.jpg?1&w=826&t=st=1707143170~exp=1707143770~hmac=95ccc8c341cf696470a640d7fbd95114ad21fa127490c262a323875d57c6abf3"
+          header="Goal"
+          body="     As we embark on our mission to empower job seekers and tech
+          enthusiasts through Let's Code, our overarching goal is to reach and
+          positively impact a diverse community."
+        />
+        <CardTwo
+          img="https://img.freepik.com/free-vector/team-concept-illustration_114360-678.jpg?w=1060&t=st=1707143337~exp=1707143937~hmac=c750a5a8c2849cf0e36121e9d9936ae46928b7772c29d29666bf72e13fe56164"
+          header="Our Works"
+          body="We share resource and opportunity updates in our community. We have
+          tech communities like AI/ML, Cloud, full-stack, etc., where we guide
+          our community members to excel in their careers by providing proper
+          guidance and resources!."
+        />
       </div>
       <div>
         <AnimatedTooltipPreview />

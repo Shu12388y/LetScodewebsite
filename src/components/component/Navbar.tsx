@@ -17,6 +17,14 @@ const menuItems = [
     name: 'Service',
     href: '/service',
   },
+  {
+    name:"Product",
+    href:"/product"
+  },
+  {
+    name:"Community",
+    href:"/community"
+  }
 ]
 
 export function ExampleNavbarOne() {
@@ -27,7 +35,7 @@ export function ExampleNavbarOne() {
   }
 
   return (
-    <div className="fixed top-0 w-full transparent z-40 ">
+    <div className="relative w-full transparent z-40 ">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span>
