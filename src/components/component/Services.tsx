@@ -3,6 +3,7 @@
 import React from 'react'
 import { Check } from 'lucide-react'
 import Link from 'next/link'
+import {PricingPageOne1} from "@/components/component/Service1";
 
 const plans = [
   {
@@ -14,7 +15,7 @@ const plans = [
       '20GB individual data each user',
       'Basic chat and email support',
     ],
-    link:"/githubs"
+    link:"https://forms.gle/U7H2mgzLfrEs2gFY9"
   },
   {
     name: 'Resume Review ',
@@ -25,7 +26,7 @@ const plans = [
       '40GB individual data each user',
       'Priority chat and email support',
     ],
-    link:"/resume"
+    link:"https://forms.gle/VQDYdXafpbFfDZqf6"
   },
   {
     name: 'LinkedIn profile optimization',
@@ -36,7 +37,18 @@ const plans = [
       'Unlimited individual data',
       'Personalized+priority service',
     ],
-    link:"/linkedin"
+    link:"https://forms.gle/zr5VCV3R12yxH6oT8"
+  },
+  {
+    name: ' Portfolio websites',
+    features: [
+      'Advanced custom fields',
+      'Audit log and data history',
+      'Unlimited individual users',
+      'Unlimited individual data',
+      'Personalized+priority service',
+    ],
+    link:"https://forms.gle/tM5QF2CeVJSA12Qx8"
   },
 ]
 
@@ -97,7 +109,7 @@ export function PricingPageOne() {
         <div className="mt-8 w-full space-y-4 md:mt-12">
           <div className="grid space-y-8 lg:grid-cols-3 lg:space-x-8 lg:space-y-0">
             {plans.map((plan) => (
-              <div key={plan.name} className=" rounded-2xl border border-gray-200 bg-white shadow">
+              <div key={plan.name} className=" rounded-2xl border  border-gray-200 bg-white shadow">
                 <div className="flex w-full flex-col justify-start space-y-4 px-8 pt-10">
                   <div className="flex w-full flex-col items-start justify-start space-y-1">
                     <p className="w-full text-4xl font-semibold  text-gray-900">
@@ -132,6 +144,9 @@ export function PricingPageOne() {
               </div>
             ))}
           </div>
+        </div>
+        <div className='mt-10 mb-10'>
+          <PricingPageOne1/>
         </div>
         <div className="mt-14 space-y-16 bg-white py-12">
           <div>
