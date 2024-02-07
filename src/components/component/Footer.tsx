@@ -25,23 +25,23 @@ export function FooterFour() {
               </h3>
               <ul>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
-                    Features
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/service">
+                    Services
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
-                    Pricing
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/community">
+                    Community
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
-                    Affiliate Program
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/product">
+                    Products
                   </a>
                 </li>
                 <li>
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
-                    Press Kit
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/about">
+                    About
                   </a>
                 </li>
               </ul>
@@ -54,22 +54,22 @@ export function FooterFour() {
               </h3>
               <ul>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
                     Account
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
                     Help
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
                     Contact Us
                   </a>
                 </li>
                 <li>
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
                     Customer Support
                   </a>
                 </li>
@@ -83,17 +83,17 @@ export function FooterFour() {
               </h3>
               <ul>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/terms">
                     Terms &amp; Conditions
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/privacy">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="#">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/license">
                     Licensing
                   </a>
                 </li>

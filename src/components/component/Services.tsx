@@ -15,7 +15,7 @@ const plans = [
       '20GB individual data each user',
       'Basic chat and email support',
     ],
-    link:"/githubs"
+    link:"https://forms.gle/U7H2mgzLfrEs2gFY9"
   },
   {
     name: 'Resume Review ',
@@ -26,7 +26,7 @@ const plans = [
       '40GB individual data each user',
       'Priority chat and email support',
     ],
-    link:"/resume"
+    link:"https://forms.gle/VQDYdXafpbFfDZqf6"
   },
   {
     name: 'LinkedIn profile optimization',
@@ -37,7 +37,18 @@ const plans = [
       'Unlimited individual data',
       'Personalized+priority service',
     ],
-    link:"/linkedin"
+    link:"https://forms.gle/zr5VCV3R12yxH6oT8"
+  },
+  {
+    name: ' Portfolio websites',
+    features: [
+      'Advanced custom fields',
+      'Audit log and data history',
+      'Unlimited individual users',
+      'Unlimited individual data',
+      'Personalized+priority service',
+    ],
+    link:"https://forms.gle/tM5QF2CeVJSA12Qx8"
   },
 ]
 
