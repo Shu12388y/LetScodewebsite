@@ -1,14 +1,16 @@
 import React from "react";
 import { AnimatedTooltipPreview } from "@/components/component/Developers";
-import { CardTwo } from "@/components/component/Card";
 import {AboutPageOne} from "@/components/component/About";
+import Image from "next/image";
 
 function page() {
   return (
     <>
       <div className="flex flex-col items-center justify-center text-4xl ">
         <div className="bg-cover bg-center">
-          <img
+          <Image
+          width={2200}
+          height={2200}
             className="blur-sm"
             src="https://www.lets-code.co.in/images/banner/9.jpg"
             alt=""
