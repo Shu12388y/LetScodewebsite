@@ -3,6 +3,7 @@
 import React from 'react'
 import { Check } from 'lucide-react'
 import Link from 'next/link'
+import {PricingPageOne1} from "@/components/component/Service1";
 
 const plans = [
   {
@@ -132,6 +133,9 @@ export function PricingPageOne() {
               </div>
             ))}
           </div>
+        </div>
+        <div className='mt-10 mb-10'>
+          <PricingPageOne1/>
         </div>
         <div className="mt-14 space-y-16 bg-white py-12">
           <div>
