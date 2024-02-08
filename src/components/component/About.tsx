@@ -15,7 +15,7 @@ export function AboutPageOne() {
             Made with love, right here in India
           </p>
           <p className="max-w-4xl text-base text-gray-600 md:text-xl">
-          As the Let's Code community, our unwavering mission is to empower and support every job seeker and tech enthusiast on their journey towards success. We strive to be a beacon of knowledge, sharing regular updates, opportunities, and resources that will elevate their skills and careers.
+          As the Lets Code community, our unwavering mission is to empower and support every job seeker and tech enthusiast on their journey towards success. We strive to be a beacon of knowledge, sharing regular updates, opportunities, and resources that will elevate their skills and careers.
           </p>
         </div>
         <div className="w-full space-y-4">

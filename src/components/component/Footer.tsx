@@ -9,11 +9,11 @@ export function FooterFour() {
             <div className="flex h-full flex-col justify-between">
               <div className="mb-4 inline-flex items-center w-20">
               <img src={image.src} alt="" />
-                <span className="ml-4 text-lg font-bold">Let's Code</span>
+                <span className="ml-4 text-lg font-bold">Lets Code</span>
               </div>
               <div>
                 <p className="text-sm text-gray-600">
-                  &copy; Copyright 2022. All Rights Reserved by Let's Code.
+                  &copy; Copyright 2022. All Rights Reserved by Lets Code.
                 </p>
               </div>
             </div>
