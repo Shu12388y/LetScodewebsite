@@ -42,7 +42,7 @@ export function ExampleNavbarOne() {
           <span className='w-10'>
            <img src={image.src} alt="logo" />
            </span>
-           <span className='font-bold'>Let's Code</span>
+           <span className='font-bold'>Lets Code</span>
         </div>
         <div className="hidden lg:block">
           <ul className="inline-flex space-x-8">
@@ -81,7 +81,7 @@ export function ExampleNavbarOne() {
                   <span className='w-10'>
            <img src={image.src} alt="logo" />
            </span>
-                    <span className="font-bold">Let's Code</span>
+                    <span className="font-bold">Lets Code</span>
                   </div>
                   <div className="-mr-2">
                     <button
