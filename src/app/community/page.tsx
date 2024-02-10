@@ -4,6 +4,8 @@ import { CardOne } from "@/components/component/Card1";
 function page() {
   return (
     <>
+    <section className="bg-slate-50 py-20">
+
        <h1 className="text-4xl font-bold mt-20 mb-5 text-center">Our Community</h1>
       <div className="flex flex-col items-center justify-center mt-10 gap-3 mb-10 md:flex-row md:flex-wrap md:justify-center">
         <CardOne
@@ -11,25 +13,25 @@ function page() {
           header="Open Source"
           body="We are thrilled to announce the launch of our brand new WhatsApp community dedicated to all things open source. 🤝 Whether you're a seasoned open source contributor or just starting your journey, this group is the perfect platform to connect, collaborate, and learn together. 📚💡"
           link="https://chat.whatsapp.com/ELpn6eu6b1A0lPXZ9Fr8nO"
-        />
+          />
         <CardOne
           img="https://img.freepik.com/free-vector/robotic-artificial-intelligence-technology-smart-lerning-from-bigdata_1150-48136.jpg?w=900&t=st=1707200798~exp=1707201398~hmac=0eab2c59a17f521fdfab96055ec2736e63e9883b4a57ac6ec05ec2753828d386"
           header="Ai/Ml"
           body="We are thrilled to announce the launch of our brand new WhatsApp community dedicated to all things Artificial Intelligence and Machine Learning. 🤝 Whether you're a seasoned AI expert or just getting started in the world of ML, this group is the perfect platform to connect, collaborate, and learn together. 📚💡"
           link="https://chat.whatsapp.com/HTDJ0DN54xj6RlyEb1sDUG"
-        />
+          />
         <CardOne
           img="https://img.freepik.com/free-vector/analyst-working-laptop-with-automation-process-business-process-automation-business-process-workflow-automated-business-system-concept_335657-400.jpg?w=1060&t=st=1707200884~exp=1707201484~hmac=afa3b40e1226420e49a6d526c2f94bb16e37542184e147812f98ba36724409fb"
           header="Data Structure and Algorithm"
           body="We are excited to announce the launch of our dedicated community focused on all things DSA. Whether you're a seasoned coder or just beginning your coding journey, this community is the perfect platform to explore, learn, and excel in the world of algorithms and problem-solving. 💻💡 ."
           link="https://chat.whatsapp.com/DDA9Vix2xb86lPHvr4GK8L"
-        />
+          />
         <CardOne
           img="https://img.freepik.com/free-vector/man-sysadmine-computer-programmer-working-computer_575670-70.jpg?w=900&t=st=1707227144~exp=1707227744~hmac=bcd57ef149ef0bef169bb4ce2004149d96fbb833331a657ad4202b5fd26e8ac0"
           header="Full Stack Development"
           body="We are excited to announce the launch of our dedicated community focused on all things Full Stack Development. Whether you're a seasoned developer or just beginning your developer coding journey, this community is the perfect platform to explore, learn, and connect , colloborate and learn together. 💻💡 ."
           link="https://chat.whatsapp.com/J2V4N5d4I8MKpPlEsdEN0A"
-        />
+          />
       </div>
       <div className="flex flex-col items-center justify-center mt-10 gap-3 mb-10 md:flex-row md:flex-wrap md:justify-center">
 
@@ -48,6 +50,7 @@ function page() {
     <CardOne img="https://img.freepik.com/free-vector/colorful-theme-landmarks-skyline_23-2148439830.jpg?w=996&t=st=1707329777~exp=1707330377~hmac=4d3c870b1d7ae436fbb548e59145849a06466acfc7c449abe1352455928f31b6" header="NCR" body="We are thrilled to announce the launch of our brand new WhatsApp community dedicated to all NCR software enginner's 🤝." link="https://chat.whatsapp.com/E4u2sEP4wEBBCfklaOyJ9B"/>
   </div>
 </div>
+          </section>
 </>
   );
 }

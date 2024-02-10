@@ -6,6 +6,8 @@ import Image from "next/image";
 function page() {
   return (
     <>
+   <section className="bg-slate-50">
+
       <div className="flex flex-col items-center justify-center text-4xl ">
         <div className="bg-cover bg-center">
           <Image
@@ -14,7 +16,7 @@ function page() {
             className="blur-sm"
             src="https://www.lets-code.co.in/images/banner/9.jpg"
             alt=""
-          />
+            />
         </div>
         <h1 className="absolute text-4xl font-bold">About Company</h1>
       </div>
@@ -25,6 +27,7 @@ function page() {
       <div className="mt-20 mb-20">
         <AnimatedTooltipPreview />
       </div>
+            </section>
     </>
   );
 }

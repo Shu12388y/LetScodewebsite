@@ -6,9 +6,9 @@ import { CardTwo } from "@/components/component/Card";
 export default function Home() {
   return (
     <>
+    <div className="bg-slate-50">
+
     <div>
-<div>
-</div>
     <HeroParallaxDemo/>
     </div>
     <div className="mt-20">
@@ -32,6 +32,7 @@ export default function Home() {
     <TypewriterEffectDemo/>
     </div>
     
+    </div>
     </>
     
   );
