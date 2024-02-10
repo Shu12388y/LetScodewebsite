@@ -1,10 +1,11 @@
 import React from "react";
 import { CardOne } from "@/components/component/Card1";
 
+
 function page() {
   return (
     <>
-    <section className="bg-slate-50 py-20">
+    <section className="bg-slate-50 py-1">
 
        <h1 className="text-4xl font-bold mt-20 mb-5 text-center">Our Community</h1>
       <div className="flex flex-col items-center justify-center mt-10 gap-3 mb-10 md:flex-row md:flex-wrap md:justify-center">

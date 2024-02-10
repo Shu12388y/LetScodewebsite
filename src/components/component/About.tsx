@@ -2,8 +2,12 @@
 
 import React from 'react'
 import { CardTwo } from "@/components/component/Card";
+import Image from 'next/image';
+
+
+
 export function AboutPageOne() {
-  
+
   return (
     <div>
 
@@ -19,7 +23,7 @@ export function AboutPageOne() {
           </p>
         </div>
         <div className="w-full space-y-4">
-          <img
+          <Image width="1100" height="1100"
             className="h-[200px] w-full rounded-xl object-cover md:h-full"
             src="https://dev-ui-image-assets.s3.ap-south-1.amazonaws.com/google-map.jpg"
             alt=""
@@ -74,7 +78,7 @@ export function AboutPageOne() {
             </button>
           </div>
           <div className="md:mt-o mt-10 w-full">
-            <img
+            <Image width="1100" height="1100"
               src="https://images.unsplash.com/photo-1605165566807-508fb529cf3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
               alt="Getting Started"
               className="rounded-lg"
