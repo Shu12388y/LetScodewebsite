@@ -24,7 +24,7 @@ function page() {
         <AboutPageOne/>
       </div>
      
-      <div className="mt-20 mb-20">
+      <div className="mt-20 pb-20">
         <AnimatedTooltipPreview />
       </div>
             </section>
