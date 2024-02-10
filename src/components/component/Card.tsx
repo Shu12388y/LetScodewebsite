@@ -6,8 +6,8 @@ export function CardTwo({img,header,body}:{img: string, header: string, body: st
   return (
     <div className="w-[300px] rounded-md border hover:bg-slate-100 shadow-lg hover:shadow-indigo-500/40 ">
       <Image
-      width="100"
-      height="100"
+      width="400"
+      height="400"
         src={img}
         alt="Laptop"
         className="h-[200px] w-full rounded-md object-cover"

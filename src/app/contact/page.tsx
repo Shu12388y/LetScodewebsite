@@ -7,10 +7,10 @@ import Image from "next/image";
 function ContactPageOne() {
   const [state, handleSubmit] = useForm("moqyrweq");
   if (state.succeeded) {
-    return <p className="flex flex-1 items-center justify-center mt-60 font-bold text-4xl mb-60">Thanks for joining!</p>;
+    return <p className="flex flex-1 items-center justify-center mt-60 font-bold text-4xl mb-60 bg-slate-40">Thanks for joining!</p>;
   }
   return (
-    <div>
+    <div className="bg-slate-50">
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
           <div className="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
@@ -127,8 +127,8 @@ function ContactPageOne() {
               </div>
             </div>
             <Image
-            width="100"
-            height="100"
+            width="1100"
+            height="1100"
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block"
               src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&h=800&q=80"

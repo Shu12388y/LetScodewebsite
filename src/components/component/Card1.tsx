@@ -6,8 +6,8 @@ export function CardOne({img,header,body,link}:{img:string,header:string,body:st
   return (
     <div className="w-[300px] rounded-md border shadow-lg hover:shadow-indigo-500/40">
       <Image
-      width="100"
-      height="100"
+      width="400"
+      height="400"
         src={img}
         alt="img"
         className="h-[200px] w-full rounded-md object-cover"
