@@ -1,11 +1,16 @@
 "use client";
 
 import React from "react";
+import { useForm} from "@formspree/react";
+
 function ContactPageOne() {
+  const [state, handleSubmit] = useForm("moqyrweq");
+  if (state.succeeded) {
+    return <p className="flex flex-1 items-center justify-center mt-60 font-bold text-4xl mb-60">Thanks for joining!</p>;
+  }
   return (
     <div>
       <div className="mx-auto max-w-7xl px-4">
-        {/* Hero Map */}
         <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
           <div className="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
             <p className="text-center text-xs font-semibold leading-normal md:text-sm">
@@ -32,7 +37,7 @@ function ContactPageOne() {
                 <p className="mt-4 text-lg text-gray-600">
                   Our friendly team would love to hear from you.
                 </p>
-                <form action="" className="mt-8 space-y-4">
+                <form onSubmit={handleSubmit} className="mt-8 space-y-4">
                   <div className="grid w-full gap-y-4 md:gap-x-4 lg:grid-cols-2">
                     <div className="grid w-full  items-center gap-1.5">
                       <label
@@ -43,9 +48,10 @@ function ContactPageOne() {
                       </label>
                       <input
                         className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                        type="text"
-                        id="first_name"
                         placeholder="First Name"
+                        id="firstname"
+                        type="text"
+                        name="firstname"
                       />
                     </div>
                     <div className="grid w-full  items-center gap-1.5">
@@ -57,8 +63,9 @@ function ContactPageOne() {
                       </label>
                       <input
                         className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
+                        id="lastname"
                         type="text"
-                        id="last_name"
+                        name="lastname"
                         placeholder="Last Name"
                       />
                     </div>
@@ -72,8 +79,9 @@ function ContactPageOne() {
                     </label>
                     <input
                       className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                      type="text"
                       id="email"
+                      type="email"
+                      name="email"
                       placeholder="Email"
                     />
                   </div>
@@ -86,8 +94,9 @@ function ContactPageOne() {
                     </label>
                     <input
                       className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                      type="tel"
                       id="phone_number"
+                      type="tel"
+                      name="tel"
                       placeholder="Phone number"
                     />
                   </div>
@@ -101,12 +110,14 @@ function ContactPageOne() {
                     <textarea
                       className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
                       id="message"
+                      name="message"
                       placeholder="Leave us a message"
                       cols={3}
                     />
                   </div>
                   <button
-                    type="button"
+                    type="submit"
+                    disabled={state.submitting}
                     className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                   >
                     Send Message

@@ -13,9 +13,9 @@ export function SVGMaskEffectDemo() {
         }
         className="h-[40rem] border rounded-md"
       >
-        The first rule of <span className="text-red-500">MRR Club</span> is you
+        The first rule of <span className="text-green-500">MRR Club</span> is you
         do not talk about MRR Club. The second rule of MRR Club is you DO NOT
-        talk about <span className="text-red-500">MRR Club</span>.
+        talk about <span className="text-green-500">MRR Club</span>.
       </MaskContainer>
     </div>
   );
