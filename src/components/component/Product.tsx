@@ -14,7 +14,7 @@ export const ProductOverviewTwo = ({img,header,subheader,body,link}:{img:string,
           height={500}
             alt="image"
             className="h-64 w-full rounded object-cover lg:h-96 lg:w-1/2"
-            src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+            src={img}
           />
           <div className="mt-6 w-full lg:mt-0 lg:w-1/2 lg:pl-10">
             <h2 className="text-sm font-semibold tracking-widest text-gray-500">{header}</h2>
@@ -27,7 +27,7 @@ export const ProductOverviewTwo = ({img,header,subheader,body,link}:{img:string,
         type="button"
         className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
       >
-        Visit the site
+        Coming Soon
       </button>
 
             </Link>
