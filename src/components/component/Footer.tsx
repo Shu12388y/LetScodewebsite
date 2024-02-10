@@ -1,5 +1,6 @@
 import React from 'react'
 import image from "@/app/logo2.png";
+import Image from 'next/image';
 export function FooterFour() {
   return (
     <section className="relative overflow-hidden py-10 bg-slate-50">
@@ -8,7 +9,7 @@ export function FooterFour() {
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">
             <div className="flex h-full flex-col justify-between">
               <div className="mb-4 inline-flex items-center w-20">
-              <img src={image.src} alt="" />
+              <Image width="100" height="100" src={image.src} alt="" />
                 <span className="ml-4 text-lg font-bold">Lets Code</span>
               </div>
               <div>

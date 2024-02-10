@@ -1,15 +1,19 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 export function ServiceCard({img,header,body,link}:{img:string,header:string,body:string,link:string}) {
   return (
-    <div className="w-[300px] rounded-md border">
-      <img
+    <div className="w-[300px] rounded-md border shadow-lg hover:shadow-slate-600/50">
+      <Image
+      width="100"
+      height="100"
         src={img}
         alt="img"
         className="h-[200px] w-full rounded-md object-cover"
       />
       <div className="p-4">
-        <h1 className="text-lg font-semibold">{header}</h1>
+        <h1 className="text-lg text-center font-semibold">{header}</h1>
         <p className="mt-3 text-sm text-gray-600">
           {body}
         </p>

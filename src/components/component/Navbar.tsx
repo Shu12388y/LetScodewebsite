@@ -4,6 +4,7 @@ import React from 'react'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import image from "@/app/logo2.png";
+import Image from 'next/image';
 
 const menuItems = [
   {
@@ -36,11 +37,11 @@ export function ExampleNavbarOne() {
   }
 
   return (
-    <div className="relative w-full pt-3 transparent z-40  bg-slate-50 ">
+    <div className="relative w-full pt-3 pb-3 transparent z-40 text-xl bg-slate-50 ">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span className='w-10'>
-           <img src={image.src} alt="logo" />
+           <Image width="100" height="100" src={image.src} alt="logo" />
            </span>
            <span className='font-bold'>Lets Code</span>
         </div>
@@ -50,7 +51,7 @@ export function ExampleNavbarOne() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-black hover:text-gray-300"
+                  className="text-xl font-semibold text-black hover:text-gray-300"
                 >
                   {item.name}
                 </a>
@@ -79,7 +80,7 @@ export function ExampleNavbarOne() {
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
                   <span className='w-10'>
-           <img src={image.src} alt="logo" />
+           <Image width="100" height="100" src={image.src} alt="logo" />
            </span>
                     <span className="font-bold">Lets Code</span>
                   </div>

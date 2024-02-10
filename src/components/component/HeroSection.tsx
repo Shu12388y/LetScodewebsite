@@ -2,101 +2,108 @@
 import React from "react";
 import { HeroParallax } from "../ui/hero-parallax";
 export const products = [
-    {
-        title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+  {
+    title: "Blind 75 Leetcode Challenge",
+    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
   },
   {
-      title: "Cursor",
-    link: "https://cursor.so",
+    title: "Meme Genrator",
+    link: "https://github.com/avinash201199/MemeGenerator",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-},
+      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
+  },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Competition and program list ",
+    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-},
+      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
+  },
 
-{
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-},
-{
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-},
-{
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-},
-
-{
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
-},
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Free courses with certificates",
+    link: " https://free-courses-with-certificates.netlify.app/",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-},
-{
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
+  },
+  {
+    title: "Blind 75 Leetcode Challenge",
+    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-},
-{
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
+  },
+  {
+    title: "Meme Genrator",
+    link: "https://github.com/avinash201199/MemeGenerator",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-},
-{
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
+      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
+  },
+  {
+    title: "Competition and program list ",
+    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-},
+      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
+  },
 
-{
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+  {
+    title: "Free courses with certificates",
+    link: " https://free-courses-with-certificates.netlify.app/",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-},
-{
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
+  },
+  {
+    title: "Blind 75 Leetcode Challenge",
+    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-},
-{
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
+  },
+  {
+    title: "Meme Genrator",
+    link: "https://github.com/avinash201199/MemeGenerator",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-},
-{
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
+  },
+  {
+    title: "Competition and program list ",
+    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
     thumbnail:
-    "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-},
+      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
+  },
+
+  {
+    title: "Free courses with certificates",
+    link: " https://free-courses-with-certificates.netlify.app/",
+    thumbnail:
+      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
+  },
+
+  {
+    title: "Blind 75 Leetcode Challenge",
+    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
+    thumbnail:
+      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
+  },
+  {
+    title: "Meme Genrator",
+    link: "https://github.com/avinash201199/MemeGenerator",
+    thumbnail:
+      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
+  },
+  {
+    title: "Competition and program list ",
+    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
+    thumbnail:
+      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
+  },
+
+  {
+    title: "Free courses with certificates",
+    link: " https://free-courses-with-certificates.netlify.app/",
+    thumbnail:
+      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
+  },
 ];
-
 
 export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;

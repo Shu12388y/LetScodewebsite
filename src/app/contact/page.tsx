@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useForm} from "@formspree/react";
+import Image from "next/image";
 
 function ContactPageOne() {
   const [state, handleSubmit] = useForm("moqyrweq");
@@ -125,7 +126,9 @@ function ContactPageOne() {
                 </form>
               </div>
             </div>
-            <img
+            <Image
+            width="100"
+            height="100"
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block"
               src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&h=800&q=80"
