@@ -7,14 +7,14 @@ export function SVGMaskEffectDemo() {
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold">
-            Open source is not just about code; it's about the spirit of
+            Open source is not just about code; it&apos;s about the spirit of
             collaboration, the freedom to innovate, and the power of community
             to create technology that empowers everyone.
           </p>
         }
         className="h-[40rem] border rounded-md"
       >
-        <span className="text-green-500">Open source is not just about code</span>; it's about the spirit of
+        <span className="text-green-500">Open source is not just about code</span>; it&apos;s about the spirit of
         collaboration, the freedom to innovate, <span className="text-green-500">and the power of community</span> to
         create technology that empowers everyone.
       </MaskContainer>
