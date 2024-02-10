@@ -7,15 +7,16 @@ export function SVGMaskEffectDemo() {
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold">
-            The first rule of MRR Club is you do not talk about MRR Club. The
-            second rule of MRR Club is you DO NOT talk about MRR Club.
+            Open source is not just about code; it's about the spirit of
+            collaboration, the freedom to innovate, and the power of community
+            to create technology that empowers everyone.
           </p>
         }
         className="h-[40rem] border rounded-md"
       >
-        The first rule of <span className="text-red-500">MRR Club</span> is you
-        do not talk about MRR Club. The second rule of MRR Club is you DO NOT
-        talk about <span className="text-red-500">MRR Club</span>.
+        <span className="text-green-500">Open source is not just about code</span>; it's about the spirit of
+        collaboration, the freedom to innovate, <span className="text-green-500">and the power of community</span> to
+        create technology that empowers everyone.
       </MaskContainer>
     </div>
   );

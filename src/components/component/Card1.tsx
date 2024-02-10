@@ -5,7 +5,7 @@ export function CardOne({img,header,body,link}:{img:string,header:string,body:st
     <div className="w-[300px] rounded-md border">
       <img
         src={img}
-        alt="Laptop"
+        alt="img"
         className="h-[200px] w-full rounded-md object-cover"
       />
       <div className="p-4">
