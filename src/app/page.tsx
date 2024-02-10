@@ -12,7 +12,7 @@ export default function Home() {
     <HeroParallaxDemo/>
     </div>
     <div className="mt-20">
-
+<h1 className="text-center font-bold text-4xl mb-20">What developers are saying ?</h1>
     <BentoGridThirdDemo/>
     </div>
     <div className="flex justify-center flex-col px-20 py-10">
