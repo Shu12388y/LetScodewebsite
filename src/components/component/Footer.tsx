@@ -2,7 +2,7 @@ import React from 'react'
 import image from "@/app/logo2.png";
 export function FooterFour() {
   return (
-    <section className="relative overflow-hidden py-10">
+    <section className="relative overflow-hidden py-10 bg-slate-50">
       <div className="relative z-10 mx-auto max-w-7xl px-4">
         <div className="-m-6 flex flex-wrap">
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">

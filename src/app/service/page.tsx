@@ -4,7 +4,9 @@ import { CardOne } from '@/components/component/Card1'
 function page() {
   return (
     <>
-    <section>
+    <main className='bg-slate-50'>
+
+    <section className='py-10'>
     <div className="flex flex-col items-center justifvy-center mt-20 mb-10">
         <div>
           <h1 className="text-4xl font-bold text-center">Build Your Own Community</h1>
@@ -59,14 +61,15 @@ function page() {
 
   </div>
 </section>
-<section>
-  <h1 className='text-center font-bold text-4xl mt-20'> Remote Jobs</h1>
+<section className='pb-20'>
+  <h1 className='text-center font-bold text-4xl mt-20 '> Remote Jobs</h1>
   <div className='flex flex-col items-center justify-center mt-10 gap-3 mb-10 md:flex-row md:flex-wrap md:justify-center'>
 <ServiceCard  img='https://img.freepik.com/free-vector/online-learning-concept-illustration_114360-4415.jpg?size=626&ext=jpg&ga=GA1.1.524731057.1707142283&semt=ais' header='Remote Intership' body='' link='https://forms.gle/Td9QD6rdAR1DLE6eA'/>
 <ServiceCard  img='https://img.freepik.com/free-vector/flat-hand-drawn-friends-videoconferencing-scenes_23-2148852457.jpg?size=626&ext=jpg&ga=GA1.1.524731057.1707142283&semt=ais' header='Remote Jobs' body='' link='https://forms.gle/Td9QD6rdAR1DLE6eA'/>
 
   </div>
 </section>
+</main>
     </>
   )
 }
