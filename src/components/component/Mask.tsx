@@ -12,7 +12,7 @@ export function SVGMaskEffectDemo() {
             to create technology that empowers everyone.
           </p>
         }
-        className="h-[40rem] border rounded-md"
+        className="h-[40rem]"
       >
         <span className="text-green-500">Open source is not just about code</span>; it&apos;s about the spirit of
         collaboration, the freedom to innovate, <span className="text-green-500">and the power of community</span> to
