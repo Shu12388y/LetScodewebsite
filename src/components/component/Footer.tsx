@@ -9,7 +9,7 @@ export function FooterFour() {
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">
             <div className="flex h-full flex-col justify-between">
               <div className="mb-4 inline-flex items-center w-20">
-              <Image width="100" height="100" src={image.src} alt="" />
+              <Image loading='eager' width="100" height="100" src={image.src} alt="" />
                 <span className="ml-4 text-lg font-bold">Lets Code</span>
               </div>
               <div>

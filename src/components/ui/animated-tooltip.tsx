@@ -78,6 +78,7 @@ export const AnimatedTooltip = ({
             )}
           </AnimatePresence>
           <Image
+            loading='eager'
             onMouseMove={handleMouseMove}
             height={100}
             width={100}

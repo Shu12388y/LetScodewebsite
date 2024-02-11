@@ -9,7 +9,8 @@ export const ProductOverviewTwo = ({img,header,subheader,body,link}:{img:string,
     <section className="overflow-hidden">
       <div className="mx-auto max-w-5xl px-5 py-24">
         <div className="mx-auto flex flex-wrap items-center lg:w-4/5">
-          <Image
+          <Image 
+          loading='eager'
           width={500}
           height={500}
             alt="image"

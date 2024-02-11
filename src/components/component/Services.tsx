@@ -5,7 +5,8 @@ import Image from 'next/image'
 export function ServiceCard({img,header,body,link}:{img:string,header:string,body:string,link:string}) {
   return (
     <div className="w-[300px] rounded-md border shadow-lg hover:shadow-slate-600/50">
-      <Image
+      <Image 
+      loading='eager'
       width="400"
       height="400"
         src={img}
