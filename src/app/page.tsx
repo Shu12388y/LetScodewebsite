@@ -7,6 +7,9 @@ import { SVGMaskEffectDemo } from "@/components/component/Mask";
 import { CardTwo } from "@/components/component/Card";
 import { Toaster, toast } from "react-hot-toast";
 import { useEffect } from "react";
+import Image from "next/image";
+
+
 export default function Home() {
   useEffect(() => {
     toast.custom((t) => (
@@ -18,16 +21,18 @@ export default function Home() {
         <div className="flex-1 w-0 p-4">
           <div className="flex items-start">
             <div className="flex-shrink-0 pt-0.5">
-              <img
+              <Image
+              width="300"
+              height="300"
                 className="h-10 w-10 rounded-full"
                 src="https://avatars.githubusercontent.com/u/61057666?v=4"
-                alt=""
+                alt="img"
               />
             </div>
             <div className="ml-3 flex-1">
               <p className="text-sm font-medium text-gray-900">Avinash Singh</p>
               <p className="mt-1 text-sm text-gray-500">
-                Welcome to our website! We're thrilled to have you here.
+                Welcome to our website! We are thrilled to have you here.
                 Explore, enjoy, and make yourself at home. Thanks for visiting
               </p>
             </div>
