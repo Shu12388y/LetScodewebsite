@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Let's Code - Empowering Tech Enthusiasts
 
-First, run the development server:
+##### Welcome to Let's Code, where we are committed to making quality tech education accessible to everyone. Our mission is to empower individuals on their tech journey by providing free study materials, job updates, and personalized guidance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# About Us
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##### At Let's Code, we believe in the importance of staying updated in the ever-evolving technology landscape. We curate comprehensive study materials covering a wide array of tech topics, including programming languages, web development, data science, artificial intelligence, and more.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##### Our educational guidance is centered around ensuring the success of students in their educational careers. We guide and support students in achieving their dream jobs by providing valuable resources and proper guidance.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# What We Offer
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Study Materials: Explore our curated resources to enhance your skills in various tech domains.
+#### Job Updates: Stay informed about the latest job opportunities in the tech industry.
+#### Resume Building: Improve your resume, LinkedIn, and GitHub profiles with our assistance.
