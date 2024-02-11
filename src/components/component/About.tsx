@@ -22,13 +22,13 @@ export function AboutPageOne() {
           As the Lets Code community, our unwavering mission is to empower and support every job seeker and tech enthusiast on their journey towards success. We strive to be a beacon of knowledge, sharing regular updates, opportunities, and resources that will elevate their skills and careers.
           </p>
         </div>
-        <div className="w-full space-y-4">
-          <Image width="1100" height="1100"
-            className="h-[200px] w-full rounded-xl object-cover md:h-full"
-            src="https://dev-ui-image-assets.s3.ap-south-1.amazonaws.com/google-map.jpg"
-            alt=""
+        {/* <div className="w-full space-y-2 h-[300px] ">
+          <Image width="10000" height="10000" loading='eager'
+            className="h-[100px] w-full rounded-xl object-scale-down  md:h-full"
+            src="https://img.freepik.com/free-vector/hand-drawn-community-spirit-illustration_23-2150194851.jpg?w=1060&t=st=1707661870~exp=1707662470~hmac=2762e2975fbaef4e98e53a5fcb069aab262b5b9161d70320827dc116932c58f0"
+            alt="img"
           />
-        </div>
+        </div> */}
         <div className="flex flex-col items-center justify-center mt-10 gap-3 mb-10 md:flex-row md:flex-wrap md:justify-center">
         <CardTwo
           img="https://img.freepik.com/free-vector/positive-tiny-people-sitting-walking-near-huge-target-with-arrow-isolated-flat-vector-illustration-cartoon-business-team-achieving-goal-aim-marketing-strategy-achievement-concept_74855-10139.jpg?w=826&t=st=1707142657~exp=1707143257~hmac=cdebf65223a94131146aa14ca0ba33ca0eefc36dd2c967d6d53f37e971ea1aa1"
@@ -78,7 +78,7 @@ export function AboutPageOne() {
             </button>
           </div>
           <div className="md:mt-o mt-10 w-full">
-            <Image width="1100" height="1100"
+            <Image width="1100" height="1100" loading='eager'
               src="https://images.unsplash.com/photo-1605165566807-508fb529cf3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
               alt="Getting Started"
               className="rounded-lg"

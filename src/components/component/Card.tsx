@@ -5,7 +5,8 @@ import Image from 'next/image'
 export function CardTwo({img,header,body}:{img: string, header: string, body: string}) {
   return (
     <div className="w-[300px] rounded-md border hover:bg-slate-100 shadow-lg hover:shadow-indigo-500/40 ">
-      <Image
+      <Image 
+      loading='eager'
       width="400"
       height="400"
         src={img}

@@ -127,6 +127,7 @@ function ContactPageOne() {
               </div>
             </div>
             <Image
+            layout='responsive' loading='eager'
             width="1100"
             height="1100"
               alt="Contact us"

@@ -41,7 +41,7 @@ export function ExampleNavbarOne() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span className='w-10'>
-           <Image width="100" height="100" src={image.src} alt="logo" />
+           <Image loading='eager' width="100" height="100" src={image.src} alt="logo" />
            </span>
            <span className='font-bold'>Lets Code</span>
         </div>
@@ -80,7 +80,7 @@ export function ExampleNavbarOne() {
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
                   <span className='w-10'>
-           <Image width="100" height="100" src={image.src} alt="logo" />
+           <Image loading='eager' width="100" height="100" src={image.src} alt="logo" />
            </span>
                     <span className="font-bold">Lets Code</span>
                   </div>

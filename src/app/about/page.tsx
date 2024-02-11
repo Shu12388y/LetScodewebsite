@@ -11,6 +11,7 @@ function page() {
       <div className="flex flex-col items-center justify-center text-4xl ">
         <div className="bg-cover bg-center">
           <Image
+          loading='eager'
           width={2200}
           height={2200}
             className="blur-sm"

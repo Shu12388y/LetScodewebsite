@@ -8,26 +8,6 @@
  ✓ Compiled successfully
    Linting and checking validity of types ...
 
-./src/app/contact/page.tsx
-117:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-./src/components/component/About.tsx
-22:11  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-77:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-./src/components/component/Card.tsx
-7:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-./src/components/component/Card1.tsx
-6:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-./src/components/component/Footer.tsx
-11:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-./src/components/component/Navbar.tsx
-43:12  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-82:12  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
 ./src/components/ui/svg-mask-effect.tsx
 31:22  Warning: The ref value 'containerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'containerRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
 
@@ -36,26 +16,26 @@
 
 info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
    Collecting page data ...
-   Generating static pages (0/10) ...
-   Generating static pages (2/10) 
-   Generating static pages (4/10) 
-   Generating static pages (7/10) 
- ✓ Generating static pages (10/10) 
+   Generating static pages (0/9) ...
+   Generating static pages (2/9) 
+   Generating static pages (4/9) 
+   Generating static pages (6/9) 
+ ✓ Generating static pages (9/9) 
    Finalizing page optimization ...
    Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    18 kB           151 kB
+┌ ○ /                                    19 kB           152 kB
 ├ ○ /_not-found                          882 B          85.1 kB
-├ ○ /about                               4.89 kB         131 kB
-├ ○ /community                           141 B          84.3 kB
-├ ○ /contact                             1.31 kB        85.5 kB
-├ ○ /product                             141 B          84.3 kB
-└ ○ /service                             2.79 kB        93.8 kB
+├ ○ /about                               4.55 kB         131 kB
+├ ○ /community                           177 B          89.3 kB
+├ ○ /contact                             8.64 kB        97.8 kB
+├ ○ /product                             185 B          96.1 kB
+└ ○ /service                             177 B          89.3 kB
 + First Load JS shared by all            84.2 kB
   ├ chunks/69-a88dc7a4b3f8858b.js        28.9 kB
   ├ chunks/fd9d1056-b34e90ae3fbd908b.js  53.4 kB
-  └ other shared chunks (total)          1.9 kB
+  └ other shared chunks (total)          1.91 kB
 
 
 ○  (Static)  prerendered as static content
