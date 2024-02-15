@@ -1,16 +1,17 @@
 import React from 'react'
 import image from "@/app/logo2.png";
 import Image from 'next/image';
+
 export function FooterFour() {
   return (
-    <section className="relative overflow-hidden py-10 bg-slate-50">
+    <section className="relative overflow-hidden py-10" style={{ backgroundColor: '#FAFAFBFF' }}>
       <div className="relative z-10 mx-auto max-w-7xl px-4">
         <div className="-m-6 flex flex-wrap">
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">
             <div className="flex h-full flex-col justify-between">
               <div className="mb-4 inline-flex items-center w-20">
               <Image loading='eager' width="100" height="100" src={image.src} alt="" />
-                <span className="ml-4 text-lg font-bold">Lets Code</span>
+                <h2 className="ml-4 text-lg font-bold">Lets Code</h2>
               </div>
               <div>
                 <p className="text-sm text-gray-600">

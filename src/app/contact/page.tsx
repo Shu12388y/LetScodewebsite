@@ -1,42 +1,43 @@
 "use client";
-
 import React from "react";
 import { useForm} from "@formspree/react";
 import Image from "next/image";
+import Design from '../../../public/design.gif';
+
 
 function ContactPageOne() {
   const [state, handleSubmit] = useForm("moqyrweq");
   if (state.succeeded) {
-    return <p className="flex flex-1 items-center justify-center mt-60 font-bold text-4xl mb-60 bg-slate-40">Thanks for joining!</p>;
+    return <p className="flex flex-1 items-center justify-center mt-60 font-bold text-4xl mb-60" >Thanks for joining!</p>;
   }
   return (
     <div className="bg-slate-50">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto max-w-7xl px-4" style={{ backgroundColor: '#D2F3D4' }}>
         <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
           <div className="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
-            <p className="text-center text-xs font-semibold leading-normal md:text-sm">
-              Share your thoughts
+            <p className="text-center text-xs font-semibold leading-normal md:text-sm " style={{color:"#9095A0"}}>
+             Questions? Feedback? Need Career Advice?
+
             </p>
           </div>
-          <p className="text-center text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-            Love to hear from you
+          <p className="text-center text-3xl font-bold md:text-5xl md:leading-10" style={{color:"#323842"}}>
+          Just want to chat?
           </p>
-          <p className="mx-auto max-w-4xl text-center text-base text-gray-600 md:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            veritatis voluptates neque itaque repudiandae sint, explicabo
-            assumenda quam ratione placeat?
+          <p className="mx-auto max-w-4xl text-center text-base md:text-xl leading-6" style={{color:"#666666"}}>
+          As the top career community for engineers worldwide, we are obsessed with providing exceptional support. 
+          Whether you need guidance advancing your career, help with your profile, or want to share suggestions, we have  got your back.
           </p>
         </div>
-        <div className="mx-auto max-w-7xl py-12 md:py-24">
-          <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
+        <div className="mx-auto max-w-7xl py-12 md:py-24" >
+          <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2 rounded-lg" style={{ backgroundColor: '#FAFAFB' }}>
             {/* contact from */}
             <div className="flex items-center justify-center">
-              <div className="px-2 md:px-12">
-                <p className="text-2xl font-bold text-gray-900 md:text-4xl">
+              <div className="px-2 md:px-12 rounded-lg">
+                <p className="text-2xl font-bold text-gray-700 md:text-4xl">
                   Get in touch
                 </p>
-                <p className="mt-4 text-lg text-gray-600">
-                  Our friendly team would love to hear from you.
+                <p className="mt-4 text-lg text-gray-500">
+                Our team of specialists is standing by to offer timely, individualized assistance for anything you need. Because your career success is our #1 priority.
                 </p>
                 <form onSubmit={handleSubmit} className="mt-8 space-y-4">
                   <div className="grid w-full gap-y-4 md:gap-x-4 lg:grid-cols-2">
@@ -119,20 +120,22 @@ function ContactPageOne() {
                   <button
                     type="submit"
                     disabled={state.submitting}
-                    className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    className="w-full rounded-md bg-white px-3 py-2 text-sm font-semibold text-green-500 shadow-sm border border-green-500 hover:bg-green-500 hover:text-white hover:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 focus-visible:outline-black"
                   >
                     Send Message
                   </button>
                 </form>
               </div>
             </div>
+
             <Image
-            layout='responsive' loading='eager'
-            width="1100"
-            height="1100"
+             layout='responsive'
+             loading='eager'
+              width="1100"
+              height="1500"
               alt="Contact us"
-              className="hidden max-h-full w-full rounded-lg object-cover lg:block"
-              src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&h=800&q=80"
+              className="hidden max-h-full w-full rounded-lg object-cover lg:block "
+              src={Design}
             />
           </div>
         </div>

@@ -35,9 +35,9 @@ export function ExampleNavbarOne() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
-
+  
   return (
-    <div className="relative w-full pt-3 pb-3 transparent z-40 text-xl bg-slate-50 ">
+    <div className="relative w-full pt-3 pb-3  z-40 text-xl"style={{ backgroundColor: '#F8F9FA' }}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span className='w-10'>
