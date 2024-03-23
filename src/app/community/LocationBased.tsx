@@ -1,9 +1,10 @@
-"use client";
+"use client"
+
 import React, { useState } from 'react';
 import LocationCard from './LocationCard';
 
 const LocationBased = () => {
- const initialCards = [
+  const initialCards = [
     {
         img :"https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
        title: "Bangalore Community",
@@ -34,6 +35,7 @@ const LocationBased = () => {
     // Add more initial cards as needed
   ];
 
+
   const [showAllCards, setShowAllCards] = useState(false);
   const [cards, setCards] = useState(initialCards.slice(0, 3)); // Initially show only three cards
 
@@ -50,33 +52,22 @@ const LocationBased = () => {
   return (
     <div className="container mx-auto">
       <section className="text-gray-600 body-font" style={{ backgroundColor: '#D2F3D4' }}>
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20 justify-center">
+        <div className="container px-5 py-12 md:py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-10 justify-center">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="text-3xl mb-2 text-center text-gray-600 font-bold">Location Based Community</h1>
-             
               <hr className="bg-gray-500" />
             </div>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
-            {cards.map((card:{
-              img:string,
-              title:string,
-              description:string,
-              link:string
-            }, index) => (
-              <LocationCard key={index} img={card?.img} title={card?.title} description={card?.description}
-              link={card?.link} />
-              
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {cards.map((card, index) => (
+              <LocationCard key={index} img={card?.img} title={card?.title} description={card?.description} link={card?.link} />
             ))}
-            
-            
           </div>
-          
 
           {!showAllCards && (
-            <button onClick={handleViewAll} className="flex mx-auto mt-16 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none">View All</button>
+            <button onClick={handleViewAll} className="flex mx-auto mt-12 sm:mt-16 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none">View All</button>
           )}
 
           {showAllCards && (

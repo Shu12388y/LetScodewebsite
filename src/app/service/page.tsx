@@ -6,10 +6,13 @@ import Cardflex from "./CardFlex";
 function page() {
   return (
     <>
+    <section className="overflow-hidden">
+
       <Hero />
       <JobFlex />
       <Lgrp />
       <Cardflex/>
+    </section>
     </>
   );
 }
