@@ -33,6 +33,7 @@ export const TypewriterEffect = ({
         {
           display: "inline-block",
           opacity: 1,
+          width: "fit-content",
         },
         {
           duration: 0.3,
@@ -141,7 +142,7 @@ export const TypewriterEffectSmooth = ({
   return (
     <div className={cn("flex space-x-1 my-6", className)}>
       <motion.div
-        className="overflow-hidden "
+        className="overflow-hidden pb-2"
         initial={{
           width: "0%",
         }}
