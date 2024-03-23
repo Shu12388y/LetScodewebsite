@@ -1,110 +1,130 @@
-"use client";
-import React from "react";
-import { HeroParallax } from "../ui/hero-parallax";
-export const products = [
-  {
-    title: "Blind 75 Leetcode Challenge",
-    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
-    thumbnail:
-      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
-  },
-  {
-    title: "Meme Genrator",
-    link: "https://github.com/avinash201199/MemeGenerator",
-    thumbnail:
-      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
-  },
-  {
-    title: "Competition and program list ",
-    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
-    thumbnail:
-      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
-  },
+const HeroSection = () => {
+  return (
+    <div>
+      <section
+        className="text-gray-600 body-font"
+        style={{ backgroundColor: "#DEE1E6" }}
+      >
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-20">
+            <button className="flex mx-auto mt-5 text-gray-500 bg-white rounded-lg border-0 py-1 px-2  text-2xl">
+              Let's Learn Together,Grow Together
+            </button>
+            <h1 className="mt-6 font-bold text-5xl title-font mb-4 text-gray-900">
+              Loved by <span className="text-red-500">40,0000 +</span> Engineers{" "}
+              <br />
+              <span className="text-green-600 mt-7">around the India</span>
+            </h1>
 
-  {
-    title: "Free courses with certificates",
-    link: " https://free-courses-with-certificates.netlify.app/",
-    thumbnail:
-      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
-  },
-  {
-    title: "Blind 75 Leetcode Challenge",
-    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
-    thumbnail:
-      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
-  },
-  {
-    title: "Meme Genrator",
-    link: "https://github.com/avinash201199/MemeGenerator",
-    thumbnail:
-      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
-  },
-  {
-    title: "Competition and program list ",
-    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
-    thumbnail:
-      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
-  },
+            <p className="text-gray-500 text-lg">
+              Be a part of the most exclusive <br />
+              community of India
+            </p>
+          </div>
+          {/* <div className="flex flex-wrap">
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Shooting Stars
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-indigo-500 inline-flex items-center">
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                The Catalyzer
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-indigo-500 inline-flex items-center">
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Neptune
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-indigo-500 inline-flex items-center">
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Melanchole
+              </h2>
+              <p className="leading-relaxed text-base mb-4">
+                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.
+              </p>
+              <a className="text-indigo-500 inline-flex items-center">
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div> */}
+          <button
+            className="flex mx-auto mt-16 text-green-500  bg-white border-2 border-green-600
+          outline-2 py-2 px-8 rounded-lg"
+          >
+            Become a member
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+};
 
-  {
-    title: "Free courses with certificates",
-    link: " https://free-courses-with-certificates.netlify.app/",
-    thumbnail:
-      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
-  },
-  {
-    title: "Blind 75 Leetcode Challenge",
-    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
-    thumbnail:
-      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
-  },
-  {
-    title: "Meme Genrator",
-    link: "https://github.com/avinash201199/MemeGenerator",
-    thumbnail:
-      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
-  },
-  {
-    title: "Competition and program list ",
-    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
-    thumbnail:
-      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
-  },
-
-  {
-    title: "Free courses with certificates",
-    link: " https://free-courses-with-certificates.netlify.app/",
-    thumbnail:
-      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
-  },
-
-  {
-    title: "Blind 75 Leetcode Challenge",
-    link: "https://github.com/Lets-code-with-us/DSA-Cracker/tree/main/Blind%2075%20LeetCode",
-    thumbnail:
-      "https://img.playbook.com/zsOvKXZtSaJH0sv70za3-DwgZF3D-uM_-dp5sNDXMD0/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzViNjBjNTEx/LTA5ZGMtNDRiNC1i/ZDFjLWNlMzRmMDc2/MTIxMg",
-  },
-  {
-    title: "Meme Genrator",
-    link: "https://github.com/avinash201199/MemeGenerator",
-    thumbnail:
-      "https://img.playbook.com/k9I30hNadvKuqaXGOAoDAo51t42E2bXi5j_bcMmR1IM/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2JhOWQ3MWIx/LTc0ZjctNDRmMi1h/OGM4LTA3YTJjMWM2/NzhlOQ",
-  },
-  {
-    title: "Competition and program list ",
-    link: "https://github.com/avinash201199/Competitions-and-Programs-List",
-    thumbnail:
-      "https://img.playbook.com/4bVK6c24d1trRo8RoQR23h65j8ryrneKX1Q9hG-dAww/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzdhNjFjY2I5/LTJmNTQtNGU2My1h/MWY0LTczYjFmM2E3/NzU4YQ",
-  },
-
-  {
-    title: "Free courses with certificates",
-    link: " https://free-courses-with-certificates.netlify.app/",
-    thumbnail:
-      "https://img.playbook.com/K4rinAjjhZs3y95xt6N3AavrhASHB3BVj-TBLnBQ8rk/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzE0ODgxMGQy/LTAyMjItNDRhMS1i/NjkxLTU1ZGUwZjU0/NjcxZA",
-  },
-];
-
-export function HeroParallaxDemo() {
-  return <HeroParallax products={products} />;
-}
+export default HeroSection;

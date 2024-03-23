@@ -1,20 +1,16 @@
 "use client";
 
-import { HeroParallaxDemo } from "@/components/component/HeroSection";
+// import { HeroParallaxDemo } from "@/components/component/HeroSection";
 import { BentoGridThirdDemo } from "@/components/component/Content";
 import { TypewriterEffectDemo } from "@/components/component/NewLetter";
 import { SVGMaskEffectDemo } from "@/components/component/Mask";
 import { CardTwo } from "@/components/component/Card";
 
-
 export default function Home() {
-
   return (
     <>
       <div className="bg-slate-50">
-        <div>
-          <HeroParallaxDemo />
-        </div>
+        <div>{/* <HeroParallaxDemo /> */}</div>
         <div className="mt-20">
           <h1 className="text-center font-bold text-4xl mb-20">
             What developers are saying ?
