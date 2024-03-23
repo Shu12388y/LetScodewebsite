@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const CardLgrp = ({ img, title, description }: { img: string, title: string, description: string }) => {
   return (
-    <div className="bg-gray-100 p-6 rounded-lg mx-auto w-full md:w-2/4 lg:w-1/4 flex flex-col justify-center items-center">
+    <div className="bg-gray-100 p-6 rounded-lg mx-auto w-full flex flex-col justify-center items-center">
       <Image
         height={400}
         width={400}

@@ -52,7 +52,7 @@ const Cardflex = () => {
             </div>
           </div>
 
-          <div className="grid grid-rows-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-rows-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {cards.map((card, index) => (
               <CardLgrp key={index} img={card.img} title={card.title} description={card.description} />
             ))}
