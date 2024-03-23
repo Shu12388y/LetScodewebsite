@@ -60,9 +60,14 @@ const LocationBased = () => {
           </div>
 
           <div className="grid grid-cols-3 gap-4">
-            {cards.map((card, index) => (
-              <LocationCard key={index} img={card.img} title={card.title} description={card.description}
-              link={card.link} />
+            {cards.map((card:{
+              img:string,
+              title:string,
+              description:string,
+              link:string
+            }, index) => (
+              <LocationCard key={index} img={card?.img} title={card?.title} description={card?.description}
+              link={card?.link} />
               
             ))}
             

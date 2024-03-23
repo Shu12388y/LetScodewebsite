@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobCard = ({ img, title, description, link }) => {
+const LocationCard = ({ img, title, description, link }: { img: string, title: string, description: string, link: string }) => {
   return (
     <div className="bg-gray-100 p-6 rounded-lg mx-auto w-3/4 flex flex-col justify-center items-center">
       <img src={img} alt="coding" className="w-full h-50 object-cover object-center mb-6 rounded-lg" />
@@ -13,4 +13,4 @@ const JobCard = ({ img, title, description, link }) => {
   );
 };
 
-export default JobCard;
+export default LocationCard;

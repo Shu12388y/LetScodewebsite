@@ -5,38 +5,9 @@
    ▲ Next.js 14.1.0
 
    Creating an optimized production build ...
- ✓ Compiled successfully
-   Linting and checking validity of types ...
-
-./src/components/ui/svg-mask-effect.tsx
-31:22  Warning: The ref value 'containerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'containerRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
-
-./src/components/ui/typewriter-effect.tsx
-44:6  Warning: React Hook useEffect has a missing dependency: 'animate'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
-
-info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
-   Collecting page data ...
-   Generating static pages (0/9) ...
-   Generating static pages (2/9) 
-   Generating static pages (4/9) 
-   Generating static pages (6/9) 
- ✓ Generating static pages (9/9) 
-   Finalizing page optimization ...
-   Collecting build traces ...
-
-Route (app)                              Size     First Load JS
-┌ ○ /                                    19 kB           152 kB
-├ ○ /_not-found                          882 B          85.1 kB
-├ ○ /about                               4.55 kB         131 kB
-├ ○ /community                           177 B          89.3 kB
-├ ○ /contact                             8.64 kB        97.8 kB
-├ ○ /product                             185 B          96.1 kB
-└ ○ /service                             177 B          89.3 kB
-+ First Load JS shared by all            84.2 kB
-  ├ chunks/69-a88dc7a4b3f8858b.js        28.9 kB
-  ├ chunks/fd9d1056-b34e90ae3fbd908b.js  53.4 kB
-  └ other shared chunks (total)          1.91 kB
-
-
-○  (Static)  prerendered as static content
-
+uncaughtException [Error: EPERM: operation not permitted, open 'C:\Users\shubham\Desktop\LetScodewebsite\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Users\\shubham\\Desktop\\LetScodewebsite\\.next\\trace'
+}
