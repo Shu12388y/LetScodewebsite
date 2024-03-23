@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function JoinTeam() {
   return (
@@ -19,7 +20,9 @@ function JoinTeam() {
             </button>
           </div>
           <div className="md:mt-o mt-10 w-full">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="https://images.unsplash.com/photo-1605165566807-508fb529cf3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
               alt="Getting Started"
               className="rounded-lg"

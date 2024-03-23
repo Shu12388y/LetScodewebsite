@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 
 
-export const ProductOverviewTwo = ({img,header,subheader,body,link}:{img:string,subheader:string,header:string,body:string,link:string}) => {
+export const ProductOverviewTwo = ({img,header,subheader,body,link,status}:{img:string,subheader:string,header:string,body:string,link:string,status:string}) => {
   return (
     <section className="overflow-hidden">
       <div className="mx-auto max-w-5xl px-5 py-24">
@@ -28,7 +28,7 @@ export const ProductOverviewTwo = ({img,header,subheader,body,link}:{img:string,
         type="button"
         className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
       >
-        Coming Soon
+        {status}
       </button>
 
             </Link>

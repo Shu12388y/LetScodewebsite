@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function Feature() {
   return (
     <>
@@ -18,12 +18,14 @@ function Feature() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
               gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them.
+              haven&apos;t heard of them.
             </p>
           <div className="grid md:grid-cols-2 grid-rows-1 gap-10 justify-items-center">
             <div className="p-2 w-full">
               <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
+                <Image
+                width={500}
+                height={500}
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                   src="https://dummyimage.com/80x80"
@@ -38,7 +40,9 @@ function Feature() {
             </div>
             <div className="p-2  w-full">
               <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
+                <Image
+                width={500}
+                height={500}
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                   src="https://dummyimage.com/80x80"
@@ -53,7 +57,9 @@ function Feature() {
             </div>
             <div className="p-2 w-full">
               <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
+                <Image
+                width={500}
+                height={500}
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                   src="https://dummyimage.com/80x80"
@@ -68,7 +74,9 @@ function Feature() {
             </div>
             <div className="p-2  w-full">
               <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img
+                <Image
+                width={500}
+                height={500}
                   alt="team"
                   className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                   src="https://dummyimage.com/80x80"

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function AboutHeroSection() {
     return (
@@ -16,7 +17,7 @@ function AboutHeroSection() {
                         </div> */}
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img className="object-cover object-center rounded" alt="hero" src="https://img.freepik.com/free-vector/forming-team-leadership-concept-illustration_114360-13973.jpg?t=st=1711206658~exp=1711210258~hmac=9caea9dd5b61dd0eca6a7d450273369a75e23377cc1e81e292946d1170a8c391&w=1060" />
+                        <Image width={500} height={500} className="object-cover object-center rounded" alt="hero" src="https://img.freepik.com/free-vector/forming-team-leadership-concept-illustration_114360-13973.jpg?t=st=1711206658~exp=1711210258~hmac=9caea9dd5b61dd0eca6a7d450273369a75e23377cc1e81e292946d1170a8c391&w=1060" />
                     </div>
                 </div>
             </section>

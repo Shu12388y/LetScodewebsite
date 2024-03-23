@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 const users = [
     {
       name: 'Gabrielle Fernandez',
@@ -72,7 +73,9 @@ function Team() {
     <div className="grid grid-cols-1 gap-4 gap-y-6 border-b border-gray-300 py-12 pb-20 md:grid-cols-2 lg:grid-cols-4">
           {users.map((user) => (
             <div className="rounded-md border" key={user.name}>
-              <img
+              <Image
+                width={500}
+                height={500}
                 src={user.image}
                 alt={user.name}
                 className="h-[300px] w-full rounded-lg object-cover "
