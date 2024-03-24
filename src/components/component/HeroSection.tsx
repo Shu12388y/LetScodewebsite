@@ -13,33 +13,35 @@ function HeroSection() {
               Engineers
             </h1>
             <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              We understand the importance of staying up-to-date with the
+              ever-evolving technology landscape. Thats why we curate and
+              provide comprehensive study materials on various tech topics,
+              ranging from programming languages and web development to data
+              science, artificial intelligence, and beyond.
+              <br /> Educational guidance is primarily concerned with the
+              students success in their educational career. We guide students to
+              achieve their dream jobs by providing proper guidance and
+              resources.
             </p>
+
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Button
-              </button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                Button
+              <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                Get Started
               </button>
             </div>
           </div>
           <div className=" relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <Image
-            width={340}
-            height={340}
+              width={340}
+              height={340}
               className="object-cover object-center rounded"
               alt="hero"
               src="/Image1.png"
             />
             <div className="absolute z-10 top-[16rem] left-[-0.5rem] md:top-[21rem] md:left-[-12rem]">
-              <SideDesign/>
+              <SideDesign />
             </div>
           </div>
-
         </div>
       </section>
     </>
