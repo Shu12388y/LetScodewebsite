@@ -10,6 +10,8 @@ const NewsLetter = lazy(()=>import("../components/component/NewLetter"));
 export default function Home() {
   return (
     <>
+    <section className="overflow-hidden">
+
     <section className="bg-slate-200 px-10 overflow-hidden">
 
   <HeroSection/>
@@ -26,6 +28,7 @@ export default function Home() {
     </section>
     <section className="bg-green-100 flex flex-1 justify-center">
       <NewsLetter/>
+    </section>
     </section>
     </>
   );
