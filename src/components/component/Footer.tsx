@@ -9,8 +9,8 @@ export function FooterFour() {
         <div className="-m-6 flex flex-wrap">
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">
             <div className="flex h-full flex-col justify-between">
-              <div className="mb-4 inline-flex items-center w-20">
-              <Image loading='eager' width="100" height="100" src={image.src} alt="" />
+              <div className="mb-4 inline-flex items-center">
+              <Image loading='eager' width="70" height="70" src={image.src} alt="" />
                 <h2 className="ml-4 text-lg font-bold">Lets Code</h2>
               </div>
               <div>
