@@ -7,7 +7,6 @@ const JobFlex = () => {
     {
       img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
       title: "Jobs for 2026 Batch",
-
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
     {
@@ -20,7 +19,6 @@ const JobFlex = () => {
     {
       img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
       title: "Jobs for 2024 Batch",
-
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
     {
@@ -68,14 +66,18 @@ const JobFlex = () => {
           <div className="flex flex-wrap w-full mb-20 justify-center">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="text-3xl mb-2 text-center text-black font-bold">
-                Browse Job Category
+                Specific Batch Wise Job Updates
               </h1>
               <p className="text-center mt-6 text-gray-600">
-                The Best Engineering Roles at the Best Companies
+                Are you an IT professional or freshers looking for the latest
+                job opportunities in the tech industry? Look no further! We have
+                created a dedicated WhatsApp group that provides instant updates
+                on IT job openings across various domains for specific batch
+                pass out
               </p>
-              <p className="text-center text-gray-600">
-                Premier jobs to grow your skills and progress your career
-                journey
+              <p className="text-center text-gray-600 font-bold">
+                We have WhatsApp groups for batches -2026
+                2025/2024/2023/2022/2021/2020/
               </p>
               <hr className="bg-gray-500" />
             </div>
@@ -83,11 +85,13 @@ const JobFlex = () => {
 
           <div className="grid grid-rows-1 gap-4 md:grid-cols-3">
             {cards.map(
-              (card:{
-                img:string,
-                title:string,
-                link:string,
-              },index:number
+              (
+                card: {
+                  img: string;
+                  title: string;
+                  link: string;
+                },
+                index: number
               ) => (
                 <JobCard
                   key={index}

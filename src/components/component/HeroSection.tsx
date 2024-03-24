@@ -25,9 +25,11 @@ function HeroSection() {
             </p>
 
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Get Started
-              </button>
+              <a href="/community">
+                <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  Get Started
+                </button>
+              </a>
             </div>
           </div>
           <div className=" relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
