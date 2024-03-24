@@ -3,16 +3,17 @@ import Hero from "./Hero";
 import JobFlex from "./JobFlex";
 import Lgrp from "./Lgrp";
 import Cardflex from "./CardFlex";
+import TechJobFlex from "./TechJobFlex";
 function page() {
   return (
     <>
-    <section className="overflow-hidden">
-
-      <Hero />
-      <JobFlex />
-      <Lgrp />
-      <Cardflex/>
-    </section>
+      <section className="overflow-hidden">
+        <Hero />
+        <JobFlex />
+        <TechJobFlex />
+        <Lgrp />
+        <Cardflex />
+      </section>
     </>
   );
 }
