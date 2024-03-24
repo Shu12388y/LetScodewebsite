@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const CardLgrp = ({ img, title, description }: { img: string, title: string, description: string }) => {
+const CardLgrp = ({ img, title, description,link }: { img: string, title: string, description: string,link:string }) => {
   return (
     <div className="bg-gray-100 p-6 rounded-lg mx-auto w-full flex flex-col justify-center items-center">
       <Image
@@ -13,6 +13,7 @@ const CardLgrp = ({ img, title, description }: { img: string, title: string, des
       />
       <h2 className="text-lg font-medium text-gray-900 mb-4 text-center">{title}</h2>
       <p className="text-base leading-relaxed text-center">{description}</p>
+      <a href={link}><button>Join Now</button></a>
     </div>
   );
 };

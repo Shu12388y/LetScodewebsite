@@ -9,21 +9,25 @@ const Cardflex = () => {
       img: "https://img.freepik.com/free-photo/people-holding-linkedin-icon-tablet_53876-71146.jpg?t=st=1711249060~exp=1711252660~hmac=97bb8baf4e74e228bdfe952a5e3aa9b7e65102208876b9aedb0972304db61fbb&w=740",
       title: "LinkedIn",
       description: "Looking to enhance your LinkedIn presence and unlock new opportunities? Look no further! Our LinkedIn profile optimization service is designed to maximize your visibility, credibility, and engagement on the world's premier professional networking platform.",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSc3WL23EzaTQP6QhSi3gliUSuWRCwcReyI6G_8z_ZzzlwozPw/viewform"
     },
     {
       img: "https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png",
       title: "Github",
       description: "Your GitHub profile is like your tech resume but cooler. It's where you can show off the awesome coding projects you've worked on, prove you know your stuff, and even demonstrate how well you play with others in the coding world. It's not just a bunch of code; it's a living, breathing showcase of what you can do. .",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScTVxDgOosYwrSVeLgHifQaexZsPu1gDKLNu0HUJK_YMHfEeg/viewform"
     },
     {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqao4pTPPST5hORWImOWL4iht8JcW0Go-km_MnXO6FqA&s",
       title: "Resume Review",
       description: "Investing in our resume review service is a wise choice for anyone looking to optimize their job search and make a strong impression on hiring managers. Let us help you unlock your full potential and accelerate your career growth..",
+      link:'https://docs.google.com/forms/d/e/1FAIpQLSfG0glYZ2dtraoWfvLkZpbfZodK_zfWMljRL7I1ChTthyBDaQ/viewform'
     },
     {
       img: "https://img.freepik.com/free-vector/flat-design-portfolio-template-design_52683-80880.jpg?t=st=1711249161~exp=1711252761~hmac=538ba987dfb4f25a3ee57a563ce7b9dd531302652c4fcd8f2dcb90f2425712bc&w=740",
       title: "PortFolio",
       description: "A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. .",
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSc9pRvjNSargdpq6Vc3USwFacMUJ0HXv7kg1Nuov6GMMasKOA/viewform"
     }
     // Add more initial cards as needed
   ];
@@ -54,7 +58,7 @@ const Cardflex = () => {
 
           <div className="grid grid-rows-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {cards.map((card, index) => (
-              <CardLgrp key={index} img={card.img} title={card.title} description={card.description} />
+              <CardLgrp key={index} img={card.img} title={card.title} description={card.description} link={card.link} />
             ))}
           </div>
 
