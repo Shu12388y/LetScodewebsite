@@ -26,7 +26,7 @@ function TestCard() {
                   </h2>
                 </div>
                 <p className="leading-relaxed">
-                  The information you're providing is really good in both
+                  The information you&apos;re providing is really good in both
                   quality and quantity. Your work is really helpful for lazy
                   people like me.. Who are always in search of good things
                   without netsurfing. Keep doing good work... Thank you.{" "}
@@ -73,7 +73,7 @@ function TestCard() {
                 <p className="leading-relaxed">
                   Thank you for providing various preparatory materials and
                   information about various internships and jobs.... It is
-                  really appreciable since we don't get to know about various
+                  really appreciable since we don&apos;t get to know about various
                   openings in the industry and this kind of help is great and
                   please keep posting like this.
                 </p>
@@ -146,7 +146,7 @@ function TestCard() {
                 </div>
                 <p className="leading-relaxed">
                   I want to express my deepest gratitude to each and every
-                  member of this Let's Code 🤗 community (Avinash sir
+                  member of this Let&apos;s Code 🤗 community (Avinash sir
                   especially). Your support and dedication have played a
                   significant role in helping me access invaluable technical
                   resources and fostering my growth in the computer science

@@ -109,12 +109,12 @@ const TopCommunity = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {cards.map((card, index) => (
               <CommunityCard
+              // className="mt-4 sm:mt-0"
                 key={index}
                 img={card?.img}
                 title={card?.title}
                 description={card?.description}
                 link={card?.link}
-                className="mt-4 sm:mt-0"
                 // Adjusting card spacing for mobile devices
                 // Add space above the cards on small screens
               />

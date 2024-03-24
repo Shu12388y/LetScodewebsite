@@ -8,7 +8,7 @@ function AboutHeroSection() {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className=" text-lg mb-4  text-gray-900">
-              At Let's Code , we are dedicated to empowering individuals in
+              At Let&apos;s Code , we are dedicated to empowering individuals in
               their tech journey by providing free study materials and job
               updates. Our mission is to make quality tech education accessible
               to everyone, regardless of their background or financial
@@ -17,7 +17,7 @@ function AboutHeroSection() {
               <p>
                 <br />
                 We understand the importance of staying up-to-date with the
-                ever-evolving technology landscape. That's why we curate and
+                ever-evolving technology landscape. That&apos;s why we curate and
                 provide comprehensive study materials on various tech topics,
                 ranging from programming languages and web development to data
                 science, artificial intelligence, and beyond.
@@ -26,8 +26,8 @@ function AboutHeroSection() {
             <p className="text-lg mb-4  text-gray-900">
               <b>
                 We also help students improve their resumes, LinkedIn profiles,
-                and GitHub profiles. So don't wait, reach out to
-                us for any help!
+                and GitHub profiles. So don&apos;t wait, reach out to
+                us for any help!
               </b>
             </p>
             {/* <div className="flex justify-center">

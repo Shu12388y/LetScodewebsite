@@ -11,20 +11,20 @@ export function AboutPageOne() {
         <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
           <div className="max-w-max rounded-full border bg-gray-50 p-1 px-3"></div>
           <p className="text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-            At Let's Code , we are dedicated to empowering individuals in their
+            At Let&apos;s Code , we are dedicated to empowering individuals in their
             tech journey by providing free study materials and job updates. Our
             mission is to make quality tech education accessible to everyone,
             regardless of their background or financial constraints.
           </p>
           <p className="max-w-4xl text-base text-gray-600 md:text-xl">
             We understand the importance of staying up-to-date with the
-            ever-evolving technology landscape. That's why we curate and provide
+            ever-evolving technology landscape. That&apos;s why we curate and provide
             comprehensive study materials on various tech topics, ranging from
             programming languages and web development to data science,
             artificial intelligence, and beyond.
           </p>
           <p className="max-w-4xl text-base text-gray-600 md:text-xl">
-            ducational guidance is primarily concerned with the student's
+            ducational guidance is primarily concerned with the student&apos;s
             success in their educational career. We guide students to achieve
             their dream jobs by providing proper guidance and resources.
           </p>
@@ -46,7 +46,7 @@ export function AboutPageOne() {
           <CardTwo
             img="https://img.freepik.com/free-vector/vision-statement-concept-illustration_114360-7576.jpg?w=740&t=st=1707143102~exp=1707143702~hmac=d8f1fa23840a5a6b3267c78c0c1867fe39d83f8c2df83206fe16dfeac5c9d8d4"
             header="Vision"
-            body="   We envision Let's Code as a guiding light, illuminating the path for
+            body="   We envision Let&apos;s Code as a guiding light, illuminating the path for
           aspiring developers and tech enthusiasts, igniting their passion for
           coding, and nurturing their talents to unlock their true potential."
           />
@@ -54,7 +54,7 @@ export function AboutPageOne() {
             img="https://img.freepik.com/free-vector/target-achievement-teamwork-business_107791-46.jpg?1&w=826&t=st=1707143170~exp=1707143770~hmac=95ccc8c341cf696470a640d7fbd95114ad21fa127490c262a323875d57c6abf3"
             header="Goal"
             body="     As we embark on our mission to empower job seekers and tech
-          enthusiasts through Let's Code, our overarching goal is to reach and
+          enthusiasts through Let&apos;s Code, our overarching goal is to reach and
           positively impact a diverse community."
           />
           <CardTwo
