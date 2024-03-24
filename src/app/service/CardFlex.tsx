@@ -6,7 +6,7 @@ import CardLgrp from './CardLgrp';
 const Cardflex = () => {
   const initialCards = [
     {
-      img: "/linked.png",
+      img: "https://img.freepik.com/free-photo/people-holding-linkedin-icon-tablet_53876-71146.jpg?t=st=1711249060~exp=1711252660~hmac=97bb8baf4e74e228bdfe952a5e3aa9b7e65102208876b9aedb0972304db61fbb&w=740",
       title: "LinkedIn",
       description: "We are thrilled to announce the launch of our brand new WhatsApp community dedicated to all things open source. 🤝 Whether you're a seasoned open source contributor or just starting your journey, this group is the perfect platform to connect, collaborate, and learn together. 📚💡",
     },
@@ -21,7 +21,7 @@ const Cardflex = () => {
       description: "nvesting in our resume review service is a wise choice for anyone looking to optimize their job search and make a strong impression on hiring managers. Let us help you unlock your full potential and accelerate your career growth..",
     },
     {
-      img: "/PortFolio.png",
+      img: "https://img.freepik.com/free-vector/flat-design-portfolio-template-design_52683-80880.jpg?t=st=1711249161~exp=1711252761~hmac=538ba987dfb4f25a3ee57a563ce7b9dd531302652c4fcd8f2dcb90f2425712bc&w=740",
       title: "PortFolio",
       description: "A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. .",
     }
