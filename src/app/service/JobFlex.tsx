@@ -5,36 +5,36 @@ import JobCard from "./JobCard";
 const JobFlex = () => {
   const initialCards = [
     {
-      img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
+      img: "https://img.freepik.com/free-vector/man-taking-break-from-work_23-2148508516.jpg?size=626&ext=jpg&ga=GA1.1.387971878.1711206636&semt=ais",
       title: "Jobs for 2026 Batch",
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
     {
-      img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
+      img: "https://img.freepik.com/free-vector/designer-concept-illustration_114360-686.jpg?size=626&ext=jpg&ga=GA1.1.387971878.1711206636&semt=ais",
       title: "Jobs for 2025 Batch",
 
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
 
     {
-      img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
+      img: "https://img.freepik.com/free-vector/design-process-concept-landing-page_23-2150174167.jpg?size=626&ext=jpg&ga=GA1.1.387971878.1711206636&semt=ais",
       title: "Jobs for 2024 Batch",
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
     {
-      img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
+      img: "https://img.freepik.com/free-vector/design-process-concept-landing-page_23-2150174167.jpg?size=626&ext=jpg&ga=GA1.1.387971878.1711206636&semt=ais",
       title: "Jobs for 2023 Batch",
 
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
     {
-      img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
+      img: "https://img.freepik.com/free-vector/postponed-concept_52683-37087.jpg?size=626&ext=jpg&ga=GA1.1.387971878.1711206636&semt=ais",
       title: "Jobs for 2022 Batch",
 
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",
     },
     {
-      img: "https://img.freepik.com/free-vector/bangalore-india-skyline-with-panorama-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-presentation-banner-website_596401-365.jpg?size=626&ext=jpg&ga=GA1.1.570712340.1707328262&semt=sph",
+      img: "https://img.freepik.com/free-vector/telecommuting-illustration_23-2148485189.jpg?size=626&ext=jpg&ga=GA1.1.387971878.1711206636&semt=ais",
       title: "Jobs for 2021 Batch",
 
       link: "https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform?usp=send_form",

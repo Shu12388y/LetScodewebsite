@@ -27,8 +27,8 @@ export function FooterFour() {
               </h3>
               <ul>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/service">
-                    Services
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
+                    Contact Us
                   </a>
                 </li>
                 <li className="mb-4">
@@ -52,27 +52,27 @@ export function FooterFour() {
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
               <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
-                Support
+                Service
               </h3>
               <ul>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
-                    Account
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="https://docs.google.com/forms/d/e/1FAIpQLSctymwOtXIzeC_GUUzj2oM_u0iGh69cJkws8RGrZRRliuZRsw/viewform">
+                    Premium Jobs
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
-                    Help
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="https://docs.google.com/forms/d/e/1FAIpQLSfd_u1h1Z74mb3-zEfYLG4bVc4lQSvDDDZbp3NzkqDM52b9cw/viewform">
+                    Remote Jobs
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
-                    Contact Us
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="https://docs.google.com/forms/d/e/1FAIpQLSe8NFOal_SkKGpIsklqDOAdg5-NJWaaUw4WYlUhXuWdwiSq8Q/viewform">
+                    Tech Jobs
                   </a>
                 </li>
                 <li>
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/contact">
-                    Customer Support
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/service">
+                    Lgrp
                   </a>
                 </li>
               </ul>
@@ -85,17 +85,17 @@ export function FooterFour() {
               </h3>
               <ul>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/terms">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="">
                     Terms &amp; Conditions
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/privacy">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="/license">
+                  <a className=" text-base font-medium text-gray-900 hover:text-gray-700" href="">
                     Licensing
                   </a>
                 </li>

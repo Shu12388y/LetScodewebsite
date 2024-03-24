@@ -17,9 +17,19 @@ const TechJobFlex = () => {
     },
 
     {
-      img: "/remote.jpeg",
-      title: "Remote Jobs",
+      img: "https://img.freepik.com/free-vector/site-stats-concept-illustration_114360-1434.jpg?t=st=1711259875~exp=1711263475~hmac=1cc35cf94c61f5443bf4f2bb1cb6c479ad74f8beb7edacf467c3ed5d9bd4571b&w=740",
+      title: "Data Analytics",
       link: "https://forms.gle/86BxWNQSPPuoGFge8",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/young-entrepreneur-enjoying-remote-work_23-2148483962.jpg?t=st=1711260122~exp=1711263722~hmac=2d91e5391ca08e9acd2ecea695c4ae8ed847f00581f10a2fd84aaf65d2ab320c&w=1060",
+      title: "Remote Jobs",
+      link: "https://forms.gle/AJ8eApjuBRgiu6TeA",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/medium-shot-woman-working-desk-with-laptop_23-2149047433.jpg?t=st=1711260163~exp=1711263763~hmac=14c042fdb9e8d3b7a4cdda5f4d3d16a9c4aba7405841b890234bf57217309bc7&w=1060",
+      title: "Remote Intership",
+      link: "https://forms.gle/AJ8eApjuBRgiu6TeA",
     },
 
     // Add more initial cards as needed

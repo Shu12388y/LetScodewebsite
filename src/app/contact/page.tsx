@@ -135,7 +135,7 @@ function ContactPageOne() {
               height="1500"
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block "
-              src={Design}
+              src="https://img.freepik.com/free-vector/customer-support-flat-design-illustration_23-2148889374.jpg?t=st=1711260851~exp=1711264451~hmac=d0f9a8226767d749e3d293a79d36af74fbc430b243c15c5c3576fa47c4590662&w=740"
             />
           </div>
         </div>
