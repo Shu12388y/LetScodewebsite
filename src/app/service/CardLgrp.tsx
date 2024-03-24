@@ -13,7 +13,7 @@ const CardLgrp = ({ img, title, description,link }: { img: string, title: string
       />
       <h2 className="text-lg font-medium text-gray-900 mb-4 text-center">{title}</h2>
       <p className="text-base leading-relaxed text-center">{description}</p>
-      <a href={link}><button>Join Now</button></a>
+      <a href={link}><button className='bg-green-400 p-3 rounded-2xl text-black font-bold mt-4'>Join Now</button></a>
     </div>
   );
 };
