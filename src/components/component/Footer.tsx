@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "@/app/logo2.png";
+import image from "@/app/logo1.png";
 import Image from 'next/image';
 
 export function FooterFour() {

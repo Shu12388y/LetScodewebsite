@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/logo2.png" />
+      <link rel="icon" href="/logo1.png" />
       <body className={inter.className}>
         <ExampleNavbarOne />
 
